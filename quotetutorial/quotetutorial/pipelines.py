@@ -7,6 +7,7 @@
 # useful for handling different item types with a single interface
 from itemadapter import ItemAdapter
 
+# after crawled We need to store data,  The data is stored by pipelines.
 
 class QuotetutorialPipeline:
     def process_item(self, item, spider):
