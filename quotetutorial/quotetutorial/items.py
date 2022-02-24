@@ -8,5 +8,6 @@ import scrapy
 
 class QuotetutorialItem(scrapy.Item):
     # define the fields for your item here like:  # need to define which item is crawled
-    # name = scrapy.Field()
-    pass
+    title = scrapy.Field()
+    author = scrapy.Field()
+    tags = scrapy.Field()
