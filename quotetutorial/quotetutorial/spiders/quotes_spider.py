@@ -1,6 +1,6 @@
 import scrapy
 class QuotesSpider(scrapy.Spider): #scrapy is module Spider is a class
-    name = 'Quotes' # the name of the spider
+    name = 'quotes' # the name of the spider
     start_urls = [
         'https://quotes.toscrape.com/'
     ]
