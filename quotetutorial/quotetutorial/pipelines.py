@@ -14,6 +14,10 @@ from itemadapter import ItemAdapter
 
 class QuotetutorialPipeline:
     def __init__(self):
+        self.create_conn()
+        self.create_table()
+
+    def create_conn(self):
         self.conn = sqlite3.connect('quote.sqlite3')
         self.cur = self.conn.cursor()
 
