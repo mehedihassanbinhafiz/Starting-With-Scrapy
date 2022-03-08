@@ -38,3 +38,8 @@ class QuotetutorialPipeline:
         self.cur.execute("""insert into quotes values (?,?,?) """,
                          (item['title'][0], item['author'][0], item['tags'][0]))
         self.conn.commit()
+
+
+class BinaryPipeline:
+    def __init__(self):
+        pass

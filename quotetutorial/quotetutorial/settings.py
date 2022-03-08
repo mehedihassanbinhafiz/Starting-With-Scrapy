@@ -64,6 +64,7 @@ ROBOTSTXT_OBEY = True
 # Configure item pipelines
 # See https://docs.scrapy.org/en/latest/topics/item-pipeline.html
 ITEM_PIPELINES = {
+   'quotetutorial.pipelines.BinaryPipeline': 200,
    'quotetutorial.pipelines.QuotetutorialPipeline': 300,  # the higher the number is represents the higher priority is.
 }
 

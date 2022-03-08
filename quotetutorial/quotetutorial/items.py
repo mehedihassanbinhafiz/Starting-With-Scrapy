@@ -11,3 +11,8 @@ class QuotetutorialItem(scrapy.Item):
     title = scrapy.Field()
     author = scrapy.Field()
     tags = scrapy.Field()
+
+
+class BinaryQuotes(scrapy.Item):
+    quote = scrapy.Field()
+    author = scrapy.Field()
